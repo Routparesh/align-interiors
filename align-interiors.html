@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Align Interiors | Interior Designers in Pune</title>
+  <meta name="description" content="Align Interiors creates thoughtful, functional and elegant residential and commercial interiors in Pune, Maharashtra. Book a consultation today.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Loading Overlay -->
+  <div class="loading-overlay" id="loadingOverlay">
+    <div class="loading-spinner"></div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="sticky-nav">
+    <div class="container header-container">
+      <a href="#home" class="logo">ALIGN <span>INTERIORS</span></a>
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-links" role="navigation">
+        <ul>
+          <li><a href="#home" class="nav-item">Home</a></li>
+          <li><a href="#about" class="nav-item">About</a></li>
+          <li><a href="#services" class="nav-item">Services</a></li>
+          <li><a href="#projects" class="nav-item">Projects</a></li>
+          <li><a href="#why-us" class="nav-item">Why Us</a></li>
+          <li><a href="#contact" class="nav-item">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Book a Consultation</a>
+      </nav>
+    </div>
+    <!-- Mobile Menu -->
+    <nav class="mobile-menu" aria-label="Mobile navigation">
+      <a href="#home" class="nav-item">Home</a>
+      <a href="#about" class="nav-item">About</a>
+      <a href="#services" class="nav-item">Services</a>
+      <a href="#projects" class="nav-item">Projects</a>
+      <a href="#why-us" class="nav-item">Why Us</a>
+      <a href="#contact" class="nav-item">Contact</a>
+      <a href="#contact" class="btn btn-primary" style="margin-top: 2rem;">Book a Consultation</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1 class="scroll-reveal-section">Thoughtful Spaces. Timeless Interiors.</h1>
+      <p class="scroll-reveal-section">Transforming homes and commercial spaces into elegant, functional environments designed around the way you live and work.</p>
+      <div class="hero-buttons scroll-reveal-section">
+        <a href="#contact" class="btn btn-primary">Book a Consultation</a>
+        <a href="#projects" class="btn btn-outline">Explore Our Projects</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-dot"></div>
+      <span style="font-size: 0.7rem; color: var(--ground); font-weight: 500;">Scroll</span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about scroll-reveal-section">
+    <div class="container section flex">
+      <div class="about-image"></div>
+      <div class="about-text">
+        <span class="eyebrow">ABOUT US</span>
+        <h2>Designing Spaces That Feel Like You.</h2>
+        <p>At Align Interiors, we believe that exceptional interior design begins with understanding. Our approach is deeply personalized — we listen to your vision, examine your lifestyle, and then craft spaces that reflect who you are while serving how you live.</p>
+        <p>We balance aesthetics with functionality, creating environments that are as beautiful as they are practical. Every detail is carefully considered, from the interplay of light and shadow to the tactile quality of materials.</p>
+        <ul>
+          <li><strong>Personalized Design:</strong> Each project begins with a deep understanding of your needs and aspirations.</li>
+          <li><strong>Functional Planning:</strong> We optimize every square foot for comfort and efficiency.</li>
+          <li><strong>Attention to Detail:</strong> From concept to completion, no element is left to chance.</li>
+          <li><strong>Contemporary Aesthetics:</strong> Modern design principles that endure, not follow trends.</li>
+          <li><strong>Client-Focused Execution:</strong> Your vision guides every decision, every step of the way.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services scroll-reveal-section">
+    <div class="container section">
+      <div class="services-head">
+        <span class="eyebrow-alt">WHAT WE DO</span>
+        <h2>Crafted for the Way You Live.</h2>
+        <p>We offer comprehensive interior design services for both residential and commercial spaces, with a focus on creating functional, beautiful environments.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-image" style="background: url('https://images.unsplash.com/photo-1513694203232-719a280e022f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80') center/cover no-repeat;"></div>
+          <div class="service-content">
+            <h3>Residential Interior Design</h3>
+            <ul>
+              <li>Living rooms and sitting areas</li>
+              <li>Bedrooms and ensuite design</li>
+              <li>Kitchens and dining spaces</li>
+              <li>Complete home interiors</li>
+            </ul>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-image" style="background: url('https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80') center/cover no-repeat;"></div>
+          <div class="service-content">
+            <h3>Commercial Interior Design</h3>
+            <ul>
+              <li>Office spaces and workspaces</li>
+              <li>Retail and showroom environments</li>
+              <li>Professional environments</li>
+            </ul>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-image" style="background: url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80') center/cover no-repeat;"></div>
+          <div class="service-content">
+            <h3>Space Planning</h3>
+            <ul>
+              <li>Efficient layouts and zoning</li>
+              <li>Furniture planning and placement</li>
+              <li>Space optimization strategies</li>
+            </ul>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-image" style="background: url('https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80') center/cover no-repeat;"></div>
+          <div class="service-content">
+            <h3>Kitchen & Wardrobe Design</h3>
+            <ul>
+              <li>Modular kitchen solutions</li>
+              <li>Custom wardrobe designs</li>
+              <li>Practical storage organization</li>
+            </ul>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-image" style="background: url('https://images.unsplash.com/photo-1631679706909-1844bbd07221?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80') center/cover no-repeat;"></div>
+          <div class="service-content">
+            <h3>Turnkey Interior Solutions</h3>
+            <ul>
+              <li>Design coordination</li>
+              <li>Material and finish selection</li>
+              <li>Execution management</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Design Philosophy Section -->
+  <section id="philosophy" class="philosophy scroll-reveal-section">
+    <div class="container section">
+      <h2>Where Form Meets Function.</h2>
+      <p>Great interiors don't just look good — they work beautifully. At Align Interiors, we design spaces that serve your life as gracefully as they inspire it.</p>
+      <div class="principles">
+        <div class="principle">
+          <div class="principle-number">01</div>
+          <div class="principle-title">Understand</div>
+          <div class="principle-desc">We listen deeply to understand your lifestyle, needs, and vision for your space.</div>
+        </div>
+        <div class="principle">
+          <div class="principle-number">02</div>
+          <div class="principle-title">Design</div>
+          <div class="principle-desc">We create thoughtful layouts, select complementary materials, and refine every detail.</div>
+        </div>
+        <div class="principle">
+          <div class="principle-number">03</div>
+          <div class="principle-title">Transform</div>
+          <div class="principle-desc">We coordinate the flawless execution to bring your vision to life with precision.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects scroll-reveal-section">
+    <div class="container section">
+      <div class="projects-head">
+        <span class="eyebrow">PORTFOLIO</span>
+        <h2>Spaces We've Shaped.</h2>
+        <p>A curated selection of residential and commercial projects showcasing our design philosophy in practice.</p>
+      </div>
+      <div class="portfolio-grid">
+        <div class="project-item" data-category="residential">
+          <span class="project-category">Residential</span>
+          <h3 class="project-title">Living Space</h3>
+        </div>
+        <div class="project-item" data-category="bedrooms">
+          <span class="project-category">Bedrooms</span>
+          <h3 class="project-title">Private Retreat</h3>
+        </div>
+        <div class="project-item" data-category="kitchens">
+          <span class="project-category">Kitchens</span>
+          <h3 class="project-title">Modern Kitchen</h3>
+        </div>
+        <div class="project-item" data-category="commercial">
+          <span class="project-category">Commercial</span>
+          <h3 class="project-title">Office Design</h3>
+        </div>
+        <div class="project-item" data-category="modern">
+          <span class="project-category">Modern Interiors</span>
+          <h3 class="project-title">Contemporary Living</h3>
+        </div>
+        <div class="project-item" data-category="living">
+          <span class="project-category">Living Spaces</span>
+          <h3 class="project-title">Sitting Room</h3>
+        </div>
+      </div>
+      <div class="projects-cta">
+        <p>Have a space in mind? Let's design it together.</p>
+        <a href="#contact" class="btn btn-primary">Start Your Project</a>
+        <p class="note" style="margin-top: 1rem; color: var(--text-secondary); font-size: 0.9rem;">Portfolio images are representative. Actual project photographs coming soon.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us Section -->
+  <section id="why-us" class="why-us scroll-reveal-section">
+    <div class="container section">
+      <h2>Why Choose Align Interiors</h2>
+      <ul>
+        <li>
+          <div class="why-number">01</div>
+          <div>
+            <div class="why-title">Personalized Approach</div>
+            <div class="why-desc">Every space is designed around your needs, lifestyle and preferences.</div>
+          </div>
+        </li>
+        <li>
+          <div class="why-number">02</div>
+          <div>
+            <div class="why-title">Functional Design</div>
+            <div class="why-desc">Beautiful interiors should also be practical and comfortable.</div>
+          </div>
+        </li>
+        <li>
+          <div class="why-number">03</div>
+          <div>
+            <div class="why-title">Attention to Detail</div>
+            <div class="why-desc">Careful consideration of materials, finishes, proportions and details.</div>
+          </div>
+        </li>
+        <li>
+          <div class="why-number">04</div>
+          <div>
+            <div class="why-title">Contemporary Aesthetics</div>
+            <div class="why-desc">Modern design principles combined with timeless visual appeal.</div>
+          </div>
+        </li>
+        <li>
+          <div class="why-number">05</div>
+          <div>
+            <div class="why-title">Client-Focused Process</div>
+            <div class="why-desc">Clear communication and collaboration throughout the design journey.</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Process Section -->
+  <section id="process" class="process scroll-reveal-section">
+    <div class="container section">
+      <h2>The Process</h2>
+      <div class="process-line"></div>
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="process-number">01</div>
+          <div class="process-title">Consultation</div>
+          <div class="process-desc">We understand your space, requirements, budget and design preferences.</div>
+        </div>
+        <div class="process-step">
+          <div class="process-number">02</div>
+          <div class="process-title">Concept & Planning</div>
+          <div class="process-desc">We develop the design direction, layout and overall concept.</div>
+        </div>
+        <div class="process-step">
+          <div class="process-number">03</div>
+          <div class="process-title">Design Development</div>
+          <div class="process-desc">We refine materials, colors, furniture, lighting and details.</div>
+        </div>
+        <div class="process-step">
+          <div class="process-number">04</div>
+          <div class="process-title">Execution</div>
+          <div class="process-desc">We coordinate the transformation and bring your vision to life.</div>
+        </div>
+        <div class="process-step">
+          <div class="process-number">05</div>
+          <div class="process-title">Final Reveal</div>
+          <div class="process-desc">We deliver a finished, refined and personalized space.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials scroll-reveal-section">
+    <div class="container section">
+      <h2>What Our Clients Say</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-card">
+          <span class="quote-mark">"</span>
+          <div class="testimonial-content">
+            "Align Interiors transformed our living space into a true reflection of our style. The attention to detail and collaborative process made all the difference."
+          </div>
+          <div class="testimonial-author">— Client Testimonial</div>
+        </div>
+        <div class="testimonial-card">
+          <span class="quote-mark">"</span>
+          <div class="testimonial-content">
+            "The redesign of our office created an amazing environment for our team. Every functional element was perfectly considered."
+          </div>
+          <div class="testimonial-author">— Business Owner</div>
+        </div>
+        <div class="testimonial-card">
+          <span class="quote-mark">"</span>
+          <div class="testimonial-content">
+            "From concept to completion, Align Interiors delivered beyond expectations. The end result is both beautiful and incredibly functional."
+          </div>
+          <div class="testimonial-author">— Homeowner</div>
+        </div>
+      </div>
+      <p class="note" style="text-align: center; margin-top: 2.5rem; color: var(--text-secondary); font-size: 0.9rem;">Genuine client testimonials will appear here as projects are completed.</p>
+    </div>
+  </section>
+
+  <!-- Location Section -->
+  <section id="location" class="location scroll-reveal-section">
+    <div class="container section">
+      <div class="location-content">
+        <h2>Visit Our Studio</h2>
+        <div class="location-info">
+          <p class="location-address">
+            Estonia Office No. 504-B,<br>
+            Gulawani Maharaj Road,<br>
+            opposite to Mehendale Garage,<br>
+            Erandwane, Pune,<br>
+            Maharashtra 411004
+          </p>
+          <div class="location-buttons">
+            <a href="tel:+919766045538" class="btn btn-primary">Call Now</a>
+            <a href="https://maps.app.goo.gl/5FdStZSszySKSZ8L6" class="btn btn-outline" target="_blank" rel="noopener">Get Directions</a>
+          </div>
+        </div>
+      </div>
+      <div class="location-map">
+        <iframe
+          src="https://maps.google.com/maps?q=Align+Interiors+Erandwane+Pune&output=embed"
+          allowfullscreen=""
+          loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact scroll-reveal-section">
+    <div class="container section">
+      <h2>Let's Create a Space You'll Love</h2>
+      <p>Share your vision and we'll create something remarkable together.</p>
+      <div class="contact-grid">
+        <div class="contact-form">
+          <form id="consultationForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" required>
+                <div class="error-message" id="name-error">Please enter your name</div>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required placeholder="+91 97660 45538">
+                <div class="error-message" id="phone-error">Please enter a valid phone number</div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com">
+              <div class="error-message" id="email-error">Please enter a valid email address</div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="project-type">Project Type *</label>
+                <select id="project-type" name="projectType" required>
+                  <option value="">Select project type</option>
+                  <option value="residential">Residential Interior Design</option>
+                  <option value="commercial">Commercial Interior Design</option>
+                  <option value="renovation">Renovation & Refurbishment</option>
+                  <option value="other">Other</option>
+                </select>
+                <div class="error-message" id="project-type-error">Please select a project type</div>
+              </div>
+              <div class="form-group">
+                <label for="location">Location *</label>
+                <input type="text" id="location" name="location" required placeholder="City or area">
+                <div class="error-message" id="location-error">Please enter your location</div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="budget">Approximate Budget</label>
+              <select id="budget" name="budget">
+                <option value="">Select budget range</option>
+                <option value="under-5l">Under ₹5 Lakhs</option>
+                <option value="5l-15l">₹5 - 15 Lakhs</option>
+                <option value="15l-30l">₹15 - 30 Lakhs</option>
+                <option value="over-30l">Over ₹30 Lakhs</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell us about your vision for the space..."></textarea>
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Request a Consultation</button>
+            </div>
+          </form>
+          <div class="success-message" id="successMessage">
+            Thank you! Your consultation request has been received. We'll contact you shortly.
+          </div>
+        </div>
+        <div class="direct-contact">
+          <p>Or reach us directly:</p>
+          <a href="tel:+919766045538" class="direct-link">Call +91 97660 45538</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-col">
+        <h3>ALIGN INTERIORS</h3>
+        <p class="tagline">Thoughtful Spaces. Timeless Interiors.</p>
+        <p class="footer-address">
+          Interior Design Studio<br>
+          Pune, Maharashtra
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="footer-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p class="footer-phone"><a href="tel:+919766045538">+91 97660 45538</a></p>
+        <p class="footer-address">
+          Estonia Office No. 504-B,<br>
+          Gulawani Maharaj Road,<br>
+          opposite Mehendale Garage,<br>
+          Erandwane, Pune,<br>
+          Maharashtra 411004
+        </p>
+        <p style="margin-top: 1rem;">
+          <a href="https://maps.app.goo.gl/5FdStZSszySKSZ8L6" target="_blank" rel="noopener">View on Google Maps</a>
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      © 2026 Align Interiors. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- ============================================
+       JAVASCRIPT
+       ============================================ -->
+  <script>
+    // DOM Elements
+    const loadingOverlay = document.getElementById('loadingOverlay');
+    const hamburger = document.querySelector('.hamburger');
+    const mobileMenu = document.querySelector('.mobile-menu');
+    const navLinks = document.querySelectorAll('.nav-links a, .mobile-menu a');
+    const form = document.getElementById('consultationForm');
+    const successMessage = document.getElementById('successMessage');
+
+    // Loading Animation
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        loadingOverlay.style.opacity = '0';
+        loadingOverlay.style.visibility = 'hidden';
+      }, 500);
+    });
+
+    // Mobile Menu Toggle
+    hamburger.addEventListener('click', () => {
+      const isOpen = mobileMenu.classList.contains('active');
+      mobileMenu.classList.toggle('active');
+      hamburger.setAttribute('aria-expanded', !isOpen);
+      document.body.classList.toggle('menu-open');
+    });
+
+    // Close mobile menu when clicking a link
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.remove('active');
+        hamburger.setAttribute('aria-expanded', 'false');
+        document.body.classList.remove('menu-open');
+      });
+    });
+
+    // Sticky Nav Scroll Effect
+    const stickyNav = document.querySelector('.sticky-nav');
+    const scrollIndicator = document.querySelector('.scroll-indicator');
+
+    window.addEventListener('scroll', () => {
+      // Add scrolled class to nav
+      if (window.scrollY > 50) {
+        stickyNav.classList.add('scrolled');
+      } else {
+        stickyNav.classList.remove('scrolled');
+      }
+
+      // Hide scroll indicator after scroll
+      if (window.scrollY > 100) {
+        scrollIndicator.style.opacity = '0';
+        scrollIndicator.style.pointerEvents = 'none';
+      } else {
+        scrollIndicator.style.opacity = '1';
+        scrollIndicator.style.pointerEvents = 'auto';
+      }
+    });
+
+    // Active Nav Link Highlight
+    const sections = document.querySelectorAll('section[id]');
+
+    const activateNavLink = () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop;
+        if (pageYOffset >= sectionTop - 200) {
+          current = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + current) {
+          link.classList.add('active');
+        }
+      });
+    };
+
+    window.addEventListener('scroll', activateNavLink);
+    activateNavLink(); // Initial call
+
+    // Scroll Reveal Animations
+    const scrollRevealSections = document.querySelectorAll('.scroll-reveal-section');
+
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+
+          // Also reveal children if they exist
+          const child = entry.target.querySelector('h1, h2, h3, p, .btn, ul');
+          if (child) {
+            setTimeout(() => {
+              child.classList.add('revealed');
+            }, 100);
+          }
+        }
+      });
+    }, observerOptions);
+
+    scrollRevealSections.forEach(section => {
+      observer.observe(section);
+    });
+
+    // Form Validation
+    const validateForm = () => {
+      let isValid = true;
+      const requiredFields = ['name', 'phone', 'project-type', 'location'];
+
+      // Clear previous errors
+      requiredFields.forEach(field => {
+        const errorElement = document.getElementById(field + '-error');
+        const inputElement = document.getElementById(field);
+        if (errorElement) errorElement.style.display = 'none';
+        if (inputElement) inputElement.classList.remove('error');
+      });
+
+      // Validate name
+      const name = document.getElementById('name').value.trim();
+      if (name === '') {
+        showError('name', 'Please enter your name');
+        isValid = false;
+      }
+
+      // Validate phone
+      const phone = document.getElementById('phone').value.trim();
+      const phoneRegex = /^(\+\d{1,3}[- ]?)?\d{10}$/;
+      if (!phoneRegex.test(phone)) {
+        showError('phone', 'Please enter a valid phone number');
+        isValid = false;
+      }
+
+      // Validate email
+      const email = document.getElementById('email').value.trim();
+      if (email && !isValidEmail(email)) {
+        showError('email', 'Please enter a valid email address');
+        isValid = false;
+      }
+
+      // Validate project type
+      const projectType = document.getElementById('project-type').value;
+      if (!projectType) {
+        showError('project-type', 'Please select a project type');
+        isValid = false;
+      }
+
+      // Validate location
+      const location = document.getElementById('location').value.trim();
+      if (location === '') {
+        showError('location', 'Please enter your location');
+        isValid = false;
+      }
+
+      return isValid;
+    };
+
+    const showError = (field, message) => {
+      const errorElement = document.getElementById(field + '-error');
+      const inputElement = document.getElementById(field);
+      if (errorElement) {
+        errorElement.textContent = message;
+        errorElement.style.display = 'block';
+      }
+      if (inputElement) {
+        inputElement.classList.add('error');
+        inputElement.setAttribute('aria-invalid', 'true');
+      }
+    };
+
+    const isValidEmail = (email) => {
+      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    };
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+
+      if (validateForm()) {
+        // Show success message
+        form.reset();
+        form.style.display = 'none';
+        successMessage.style.display = 'block';
+        successMessage.classList.add('revealed');
+
+        // Hide success after 5 seconds
+        setTimeout(() => {
+          successMessage.style.opacity = '1';
+        }, 100);
+      }
+    });
+
+    // Smooth scroll for anchor links
+    navLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        const href = link.getAttribute('href');
+        if (href && href.startsWith('#') && href !== '#') {
+          e.preventDefault();
+          const target = document.querySelector(href);
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      });
+    });
+
+    // Keyboard accessibility for hamburger menu
+    hamburger.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        hamburger.click();
+      }
+    });
+
+    // Close mobile menu with Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && mobileMenu.classList.contains('active')) {
+        mobileMenu.classList.remove('active');
+        hamburger.setAttribute('aria-expanded', 'false');
+        document.body.classList.remove('menu-open');
+      }
+    });
+
+    // Skip loading overlay on slow connections
+    if ('connection' in navigator && navigator.connection.saveData) {
+      loadingOverlay.style.display = 'none';
+    }
+
+    // Floating Action Buttons (WhatsApp & Chatbot)
+    const whatsappBtn = document.querySelector('.whatsapp-btn');
+    const chatbotBtn = document.querySelector('.chatbot-btn');
+    const chatbotWindow = document.querySelector('.chatbot-window');
+    const closeChatbot = document.querySelector('.close-chatbot');
+    const chatbotInput = document.querySelector('.chatbot-input');
+    const chatbotSend = document.querySelector('.chatbot-send');
+    const chatbotMessages = document.querySelector('.chatbot-messages');
+
+    // WhatsApp Button Click
+    if (whatsappBtn) {
+      whatsappBtn.addEventListener('click', () => {
+        const phoneNumber = '919876543210'; // Replace with your WhatsApp number
+        const message = 'Hi, I am interested in your interior design services.';
+        const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+        window.open(whatsappUrl, '_blank');
+      });
+    }
+
+    // Chatbot Toggle
+    if (chatbotBtn) {
+      chatbotBtn.addEventListener('click', () => {
+        chatbotWindow.classList.toggle('active');
+      });
+    }
+
+    // Close Chatbot
+    if (closeChatbot) {
+      closeChatbot.addEventListener('click', () => {
+        chatbotWindow.classList.remove('active');
+      });
+    }
+
+    // Chatbot Send Message
+    if (chatbotSend) {
+      chatbotSend.addEventListener('click', sendChatbotMessage);
+      if (chatbotInput) {
+        chatbotInput.addEventListener('keypress', (e) => {
+          if (e.key === 'Enter') {
+            sendChatbotMessage();
+          }
+        });
+      }
+    }
+
+    function sendChatbotMessage() {
+      const message = chatbotInput.value.trim();
+      if (message === '') return;
+
+      // Add user message
+      const userMessageDiv = document.createElement('div');
+      userMessageDiv.className = 'message user-message';
+      userMessageDiv.textContent = message;
+      chatbotMessages.appendChild(userMessageDiv);
+      chatbotInput.value = '';
+
+      // Auto-reply from chatbot
+      setTimeout(() => {
+        const botMessageDiv = document.createElement('div');
+        botMessageDiv.className = 'message bot-message';
+
+        const responses = [
+          'Thanks for reaching out! How can we help you today?',
+          'Great question! Our team specializes in residential and commercial interiors.',
+          'Would you like to book a consultation with our design team?',
+          'Let me connect you with our team for more details.',
+          'We\'d love to help transform your space! Share more about your project.'
+        ];
+
+        botMessageDiv.textContent = responses[Math.floor(Math.random() * responses.length)];
+        chatbotMessages.appendChild(botMessageDiv);
+        chatbotMessages.scrollTop = chatbotMessages.scrollHeight;
+      }, 500);
+    }
+  </script>
+
+  <!-- Floating Action Buttons -->
+  <div class="floating-buttons">
+    <!-- WhatsApp Button -->
+    <button class="whatsapp-btn" aria-label="Chat on WhatsApp" title="Chat on WhatsApp">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.746.953 3.71 1.455 5.703 1.456h.004c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+      </svg>
+    </button>
+
+    <!-- Chatbot Button -->
+    <button class="chatbot-btn" aria-label="Open chatbot" title="Chat with us">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="11" width="18" height="10" rx="2"/>
+        <circle cx="12" cy="5" r="2"/>
+        <path d="M12 7v4"/>
+        <line x1="8" y1="16" x2="8" y2="16"/>
+        <line x1="16" y1="16" x2="16" y2="16"/>
+      </svg>
+    </button>
+
+    <!-- Chatbot Window -->
+    <div class="chatbot-window">
+      <div class="chatbot-header">
+        <h3>Chat with Us</h3>
+        <button class="close-chatbot" aria-label="Close chatbot">×</button>
+      </div>
+      <div class="chatbot-messages">
+        <div class="message bot-message">
+          Hello! 👋 How can we help you with your interior design needs today?
+        </div>
+      </div>
+      <div class="chatbot-input-area">
+        <input type="text" class="chatbot-input" placeholder="Type your message..." />
+        <button class="chatbot-send" aria-label="Send message">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
